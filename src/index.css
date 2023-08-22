@@ -1,0 +1,160 @@
+/*Global Styles*/
+@font-face {
+    font-family: 'Victor Mono';
+    src: url('./assets/fonts/VictorMono-Regular.otf');
+}
+
+.victor {
+    font-family: 'Victor Mono';
+}
+
+body{
+    background-color:#171717;
+    color:#fff;
+    font-family: 'Victor Mono';
+}
+
+
+
+/*Navbar Styles*/
+.nbd-banner{
+    width: 15%;
+}
+
+/*Resume Styles*/
+.resumeContainer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("./assets/img/main_background.jpeg");
+    background-size: cover;
+}
+
+.nbd-logo{
+    width:25%;
+    border-radius: 100%;
+}
+
+.contactList{
+    list-style: none;
+}
+
+.contactList li{
+    padding: 8px;
+}
+
+.contactList a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.contactItems{
+    display:flex;
+    justify-content: end;
+    padding:10px;
+}
+
+/*Proyects Style*/
+.cards{
+    row-gap: 40px;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.062) !important;
+    transition: all 0.7s linear;
+}
+
+.card-body{
+    padding: 2rem 0 !important;
+    height: 280px;
+}
+
+.card-footer{
+    padding: 15px 0px !important;
+}
+
+.card-text{
+    padding: 0.3rem 1rem;
+    font-size:1rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+
+/*Designs Style*/
+
+.designs{
+    row-gap:30px;
+}
+
+.design{
+    position: relative;
+}
+
+.design-desc{
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8) ;
+    opacity: 0;
+}
+
+.design-desc:hover{
+    opacity: 1;
+}
+
+
+
+
+/****RESPONSIVE****/
+
+/*Navbar*/
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Resume */
+@media only screen and (max-width: 600px) {
+    .name{
+        text-align: center;
+    }
+
+    .lenguajes{
+        justify-content: center;
+    }
+
+    .nbd-logo{
+        width:30%;
+    }
+
+    /* .contact{
+        justify-content: center !important;
+    }
+    */
+    .contactList{
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    .contactItems{
+        padding:0px;
+    }
+
+    .hidden-text{
+        display:none;
+    }
+
+    .footerItem{
+        display: flex;
+        justify-content: center !important;
+        margin: 6px 0px  6px 0px;
+    }
+}

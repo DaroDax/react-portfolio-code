@@ -1,0 +1,221 @@
+{
+    "programs": {
+        "0" : {
+            "language" : "HTML",
+            "percent" : "98%"
+        },
+        "1" : {
+            "language" : "CSS",
+            "percent" : "80%"
+        },
+        "2" : {
+            "language" : "JAVASCRIPT",
+            "percent" : "70%"
+        },
+        "3" : {
+            "language" : "PHP",
+            "percent" : "75%"
+        },
+        "4" : {
+            "language" : "MYSQL",
+            "percent" : "90%"
+        },
+        "5" : {
+            "language" : "JAVA",
+            "percent" : "60%"
+        },
+        "6" : {
+            "language" : "NODE",
+            "percent" : "50%"
+        },
+        "7" : {
+            "language" : "REACT",
+            "percent" : "62%"
+        }
+    },
+
+    "design": {
+        "hab1": "Photoshop",
+        "hab2": "Illustrator",
+        "hab3": "Corel Draw",
+        "hab4": "Figma"
+    },
+
+    "idiomas":{
+        "primary":"Español",
+        "secondary":"Ingles B1"
+    },
+
+    "education":{
+        "0":{
+            "title":"Bachiller",
+            "site":"Coorporación Educativa Ocupacional CEO"
+        },
+        "1":{
+            "title":"Programación y Sistemas",
+            "site":"Coorporación Educativa Ocupacional CEO"
+        },
+        "2":{
+            "title":"Diseñador Grafico",
+            "site":"Coorporación Educativa Ocupacional CEO"
+        },
+        "3":{
+            "title":"Cisco CCNA ROUTING & SWITCHING",
+            "site":"Universidad Nacional Experimental Del Tachira UNET"
+        },
+        "4":{
+            "title":"Profesional De Desarrollo Web",
+            "site":"Codigo Facilito Aprende Desde 0"
+        },
+        "5":{
+            "title":"Profesional De JAVA",
+            "site":"Codigo Facilito Aprende Desde 0"
+        }
+    },
+
+    "experiences":{
+        "0":{
+            "position":"Programador Frontend",
+            "company":"UXSISTEMAS",
+            "time":"2022 - 2023",
+            "functions":{
+                "0" : "Realización de interfaces y conexiones a la API.",
+                "1" : "Maquetados en Wordpress y Bootstrap."
+            }
+        },
+        "1":{
+            "position":"Programador Fullstack",
+            "company":"INTERCOD",
+            "time":"2020 - 2022",
+            "functions":{
+                "0" : "API MIKROTIK, PHP, MYSQL.",
+                "1" : "Instalación de redes ISP."
+            }
+        },
+        "2":{
+            "position":"Programador Fullstack",
+            "company":"QKIERE",
+            "time":"2020",
+            "functions":{
+                "0" : "Sitio web de domicilios tipo amazon.",
+                "1" : "Administrador de la base de datos."
+            }
+        },
+        "3":{
+            "position":"Diseñador",
+            "company":"PROAUDIO AUTOSPA",
+            "time":"2018 - 2019",
+            "functions":{
+                "0" : "Responsable de redes sociales y branding de la empresa.",
+                "1" : "Logo y publicaciones de la cuenta."
+            }
+        }
+    },
+
+    "proyects":{
+        "0":{
+            "src":"../src/assets/img/proyects/rm.jpg",
+            "title":"Rick and Morty API",
+            "desc":"Conexión a la API de la famosa serie Rick and Morty, haciendo una lista paginada con Bootstrap y usando tecnicas de CSS como el glassmorphism. -Elaborado en React.",
+            "link":"https://darodax.github.io/ricky-martin-glassmorphism/"
+        },
+        "1":{
+            "src":"../src/assets/img/proyects/wt.jpg",
+            "title":"Weather Today",
+            "desc":"Clima en tiempo real de todo el mundo con conexion a la API de Openweathermap. -Elaborado en React.",
+            "link":"https://darodax.github.io/weather-today/"
+        },
+        "2":{
+            "src":"../src/assets/img/proyects/ct.jpg",
+            "title":"Cronos Time",
+            "desc":"Cronometro realizado con Javascript vanilla. -Elaborado en Javascript, CSS y HTML.",
+            "link":"https://darodax.github.io/Cronos-Time/"
+        },
+        "3":{
+            "src":"../src/assets/img/proyects/pk.jpg",
+            "title":"Pokedex API",
+            "desc":"Wikipedia sencilla realizada con la información obtenida de la PokeAPI sobre la popular serie pokemón. -Elaborado en Javascript, CSS y HTML.",
+            "link":"https://darodax.github.io/Pokedex-POKEAPI/"
+        },
+        "4":{
+            "src":"../src/assets/img/proyects/sg.jpg",
+            "title":"Snake Game",
+            "desc":"Clasico juego de la serpiente realizado con el canvas de HTML. -Elaborado en Javascript, CSS y HTML.",
+            "link":"https://darodax.github.io/Snake-Game-Tactil/"
+        },
+        "5":{
+            "src":"../src/assets/img/proyects/rc.jpg",
+            "title":"Cards",
+            "desc":"Cartas elaboradas para react usando el potencial de CSS. -Elaborado en React y CSS.",
+            "link":"https://darodax.github.io/react-cards/"
+        },
+        "6":{
+            "src":"../src/assets/img/proyects/wa.jpg",
+            "title":"Weather App",
+            "desc":"App del clima de todo el mundo en tiempo real con javascript puro. -Elaborado en Javascript vanilla.",
+            "link":"https://darodax.github.io/weather-app-page/dist/"
+        },
+        "7":{
+            "src":"../src/assets/img/proyects/ga.jpg",
+            "title":"React GIF Finder",
+            "desc":"Aplicación para buscar gif's de la mano del profesor Fernando Herrera del curso de React. -Elaborado en React",
+            "link":"https://darodax.github.io/react-curso-gif/"
+        }
+    },
+
+    "designs":{
+        "0":{
+            "src":"../src/assets/img/designs/bahia.jpg",
+            "title":"POST BAHIA",
+            "desc":"En este post, los ingredientes locales se fusionan con la pasión por la cerveza y experimentar con nuevos ingredientes y técnicas."
+        },
+        "1":{
+            "src":"../src/assets/img/designs/eg.jpg",
+            "title":"Erick Gabriel",
+            "desc":"Diseño de logo personal, con su paleta de color, fuentes, y diversos formatos."
+        },
+        "2":{
+            "src":"../src/assets/img/designs/fa.jpg",
+            "title":"Fresas Con Crema",
+            "desc":"Diseño de logo comercial, con su paleta de color, fuentes, y diversos formatos."
+        },
+        "3":{
+            "src":"../src/assets/img/designs/pa.jpg",
+            "title":"ProAudio AutoSpa",
+            "desc":"Diseño de logo empresarial, con su paleta de color, fuentes, y diversos formatos."
+        },
+        "4":{
+            "src":"../src/assets/img/designs/tb.jpg",
+            "title":"Tatiana Barrientos",
+            "desc":"Diseño de logo comercial para tienda de ropa."
+        },
+        "5":{
+            "src":"../src/assets/img/designs/tso.jpg",
+            "title":"TSO",
+            "desc":"Diseño de logo empresarial, con estetica minimalista y haciendo referencia al famoso barco de Teseo por la idea de la empresa de Renovación, Reestructuración y Reinventación."
+        },
+        "6":{
+            "src":"../src/assets/img/designs/tt.jpg",
+            "title":"TuTattoo",
+            "desc":"Diseño de logo comercial, para tienda de tatuajes usando el estilo mas convencional que seria las mandalas y con letra estilo tatoo."
+        },
+        "7":{
+            "src":"../src/assets/img/designs/zumo1.jpg",
+            "title":"Zumos De Manzana",
+            "desc":"Diseño de etiquetas para envases de jugo, minimalista y simple."
+        },
+        "8":{
+            "src":"../src/assets/img/designs/zumo2.jpg",
+            "title":"Zumos De Naranja",
+            "desc":"Diseño de etiquetas para envases de jugo, minimalista y simple."
+        },
+        "9":{
+            "src":"../src/assets/img/designs/zumo3.jpg",
+            "title":"Zumos De Uva",
+            "desc":"Diseño de etiquetas para envases de jugo, minimalista y simple."
+        }
+
+    }
+}
+
+
